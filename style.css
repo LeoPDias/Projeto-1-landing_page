@@ -1,0 +1,136 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+
+#MenuSuperior{
+    background-image: url(./Imagens/background.svg);
+    width: 1349px;
+    height: 350px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #303030;
+    padding-top: 0px;
+
+}
+
+#titulomenusuperior{
+    font-family: "inter";
+    color: #ffffff;
+    padding-left: 60px;
+    padding-top: 120px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.025em;
+    font-size: 60px;
+}
+
+#textomenusuperior{
+    font-family: "inter";
+    color: #ffffff;
+    padding-left: 70px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    width: 1024px;
+    height: 72px;
+    line-height: 72px;
+    font-size: 20px;
+}
+
+#MenuInformativo{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#MenuImagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#textoimagem{
+    font-style: normal;
+    font-family: "inter";
+    font-weight: 500;
+    line-height: 20px;
+    align-items: center;
+    padding-top: 290px;
+    padding-left: 70px;
+    text-align: justify;
+    
+}
+
+#imagemsala{
+    width: 510px;
+    height: 605px;
+    padding-left: 200px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+
+#tituloimagem{
+    font-size: 150%;
+}
+
+#MenuFormulario{
+    background-image: url(./Imagens/background.svg);
+    width: 1349px;
+    height: 350px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #303030;
+    padding-top: 0px;
+}
+
+#MenuFormulario{
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #ffffff;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+#textoformulario{
+    color: #ffffff;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 50px;
+}
+
+button{
+    background-color: #C07212;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "inter";
+    font-style: normal;
+    cursor: pointer;
+    border-color: #e09334;
+}
+
+button:hover{
+    background-color: #e09334;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 5px 10px #cf7f1d;
+    transition-duration: 0.5s;
+}
